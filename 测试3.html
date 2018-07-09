@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<script>
+  function JC(n) {
+    if (n==1){
+      return 1;
+    }
+    else {
+      return n+JC(n-1);
+    }
+  }
+  console.log(JC(6));
+  function JJ(n) {
+    if (n==1){
+      return 1 ;
+    }
+    else {
+      return n*JJ(n-1);
+    }
+  }
+  console.log(JJ(4));
+</script>
+<body>
+
+</body>
+</html>
